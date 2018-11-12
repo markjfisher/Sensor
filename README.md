@@ -20,11 +20,9 @@ The distribution can be found under `build/distributions/sensorapp-<VERSION>.tar
     Usage: sensorapp [OPTIONS]
     
     Options:
-      -p, --period INT           Period between calls (ms)
-      --showHeader / --noHeader  Print Header
+      -p, --period INT           Period between calls in milliseconds (default 5000)
+      --showHeader / --noHeader  Output CSV Header as first line
       -h, --help                 Show this message and exit
-
-The default period is 5000ms.
 
 ## Typical Output
 
