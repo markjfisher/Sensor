@@ -3,7 +3,7 @@ plugins {
 }
 
 group = "fish.sensor"
-version = "1.0.0"
+version = "1.0.1"
 
 apply plugin: 'kotlin'
 apply plugin: 'application'
@@ -25,5 +25,5 @@ dependencies {
 	implementation 'com.github.ajalt:clikt:1.5.0'
 }
 
-mainClassName = "fish.sensor.SensorAppKt"
+mainClassName = "fish.sensor.AppKt"
 applicationDefaultJvmArgs = ["-Xms32m", "-Xmx32m"]
